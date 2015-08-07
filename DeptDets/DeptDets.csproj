@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConvertChars.cs" />
+    <Compile Include="CredentialCheck.cs" />
     <Compile Include="Emailer.cs" />
     <Compile Include="CommentTarget.cs" />
     <Compile Include="CTText.cs" />

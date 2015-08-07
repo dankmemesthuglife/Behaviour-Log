@@ -103,3 +103,15 @@ C:\Users\Anttoni\Desktop\Behaviour Log by Miss Kamini\DeptDets\obj\Debug\DeptDet
 C:\Users\Anttoni\Desktop\Behaviour Log by Miss Kamini\DeptDets\obj\Debug\DeptDets.Reports.resources
 C:\Users\Anttoni\Desktop\Behaviour Log by Miss Kamini\DeptDets\obj\Debug\DeptDets.BehaviourLog.resources
 C:\Users\Anttoni\Desktop\Behaviour Log by Miss Kamini\DeptDets\obj\Debug\DeptDets.csproj.GenerateResource.Cache
+U:\CAS\I2\Behaviour-Log\DeptDets\bin\Debug\DeptDets.exe.config
+U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.exe
+U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.pdb
+U:\CAS\I2\Behaviour-Log\DeptDets\bin\Debug\DeptDets.exe
+U:\CAS\I2\Behaviour-Log\DeptDets\bin\Debug\DeptDets.pdb
+U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.csprojResolveAssemblyReference.cache
+U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.Login.resources
+U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.MessageTeacher.resources
+U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.Properties.Resources.resources
+U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.Reports.resources
+U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.BehaviourLog.resources
+U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.csproj.GenerateResource.Cache
