@@ -24,6 +24,11 @@ namespace DeptDets
             {
                 using (StreamReader stmCheck = new StreamReader(strCredentialCheck))
                 {
+                    if (stmCheck.Peek() > 0)
+                    {
+                        string strLine = stmCheck.ReadLine();
+                    }
+
                     while (stmCheck.Peek() > 0)
                     {
 
@@ -35,6 +40,6 @@ namespace DeptDets
 
             }
             return arrRows;
-        }*/
+        }
     }
 }

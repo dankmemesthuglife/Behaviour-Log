@@ -115,3 +115,6 @@ U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.Properties.Resources.resourc
 U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.Reports.resources
 U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.BehaviourLog.resources
 U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.csproj.GenerateResource.Cache
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\bin\Debug\DeptDets.exe.config
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.exe
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.pdb
