@@ -118,3 +118,12 @@ U:\CAS\I2\Behaviour-Log\DeptDets\obj\Debug\DeptDets.csproj.GenerateResource.Cach
 C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\bin\Debug\DeptDets.exe.config
 C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.exe
 C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.pdb
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\bin\Debug\DeptDets.exe
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\bin\Debug\DeptDets.pdb
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.csprojResolveAssemblyReference.cache
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.Login.resources
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.MessageTeacher.resources
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.Properties.Resources.resources
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.Reports.resources
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.BehaviourLog.resources
+C:\Users\Juan Carlos Boschero\Documents\GitHub\Behaviour-Log\DeptDets\obj\Debug\DeptDets.csproj.GenerateResource.Cache
