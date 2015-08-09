@@ -11,28 +11,29 @@ namespace DeptDets
     {
         string strCredentialCheck;
 
+        List<string> listA = new List<string>();
+        List<string> listB = new List<string>();           
+
         public CredentialCheck(string strCC)
         {
             strCredentialCheck = strCC;
         }
 
-        public string[,] Checkfile(ref int nLength)
+        public void Checkfile(ref int nLength)
         {
-            var reader = new StreamReader(File.OpenRead(@"C:\test.csv"));
-            
-            List<string> listA = new List<string>();
-            List<string> listB = new List<string>();
-            
+            var reader = new StreamReader(File.OpenRead(@"C:\UserLogin.csv"));
+
+            var line = reader.ReadLine();
+
             while (!reader.EndOfStream)
             {
-                var line = reader.ReadLine();
                 var values = line.Split(';');
 
                 listA.Add(values[0]);
                 listB.Add(values[1]);
             }
-            
-            string[,] arrRows = new string[2, 40];
+
+            /*string[,] arrRows = new string[2, 40];
 
             try
             {
@@ -53,7 +54,17 @@ namespace DeptDets
             {
 
             }
-            return arrRows;
+            return arrRows;*/
+        }
+
+        public List<string> getListA()
+        {
+            return listA;
+        }
+
+        public List<string> getListB()
+        {
+            return listB;
         }
     }
 }
