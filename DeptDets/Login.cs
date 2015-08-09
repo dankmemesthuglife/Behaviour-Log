@@ -19,9 +19,14 @@ namespace DeptDets
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            BehaviourLog em = new BehaviourLog(txtEmail.Text, txtPassword.Text);
-            em.Show();
-            this.Hide();
+            CredentialCheck Check = new CredentialCheck(@"UserLogin.csv");
+
+            if(Check.Checkfile(txtEmail.Text, txtPassword.Text))
+            {
+                BehaviourLog em = new BehaviourLog(txtEmail.Text, txtPassword.Text);
+                em.Show();
+                this.Hide();
+            }
         }
 
         private void Login_Load(object sender, EventArgs e)

@@ -23,30 +23,46 @@ namespace DeptDets
 
         public bool Checkfile(string email, string password)
         {
-            var reader = new StreamReader(File.OpenRead(@"C:\UserLogin.csv"));
+            var reader = new StreamReader(File.OpenRead(@"UserLogin.csv"));
 
             var line = reader.ReadLine();
 
-            while (!reader.EndOfStream)
+            try
             {
-                var values = line.Split(';');
-
-                listA.Add(values[0]);
-                listB.Add(values[1]);
-            }
-
-            for(int i = 0; i < listA.Capacity; i++)
-            {
-                if(listA[i] == email)
+                using(StreamReader stmCheck = new StreamReader(strCredentialCheck))
                 {
-                    if(listB[i] == password)
+                    while(stmCheck.Peek() > 0)
                     {
-                        Check = true;
+                        var values = line.Split(';');
+
+                        listA.Add(values[0]);
+                        listB.Add(values[1]);
+
+                        for (int i = 0; i < listA.Capacity; i++)
+                        {
+                            if (listA[i] == email)
+                            {
+                                if (listB[i] == password)
+                                {
+                                    Check = true;
+
+                                    return Check;
+                                }
+                            }
+                        }
                     }
+
+                    return Check;
+
                 }
             }
+            catch
+            {
+                return false;
+            }
 
-            return Check;
+            
+            
             /*string[,] arrRows = new string[2, 40];
 
             try
