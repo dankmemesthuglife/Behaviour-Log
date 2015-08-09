@@ -12,14 +12,16 @@ namespace DeptDets
         string strCredentialCheck;
 
         List<string> listA = new List<string>();
-        List<string> listB = new List<string>();           
+        List<string> listB = new List<string>();
+
+        bool Check = false;
 
         public CredentialCheck(string strCC)
         {
             strCredentialCheck = strCC;
         }
 
-        public void Checkfile(ref int nLength)
+        public bool Checkfile(string email, string password)
         {
             var reader = new StreamReader(File.OpenRead(@"C:\UserLogin.csv"));
 
@@ -33,6 +35,18 @@ namespace DeptDets
                 listB.Add(values[1]);
             }
 
+            for(int i = 0; i < listA.Capacity; i++)
+            {
+                if(listA[i] == email)
+                {
+                    if(listB[i] == password)
+                    {
+                        Check = true;
+                    }
+                }
+            }
+
+            return Check;
             /*string[,] arrRows = new string[2, 40];
 
             try
